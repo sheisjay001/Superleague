@@ -1,0 +1,15 @@
+.postTaskavailableNow {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .postTaskavailableNow {
+    align-items: flex-start;
+  }
+}

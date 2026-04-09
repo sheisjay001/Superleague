@@ -1,0 +1,134 @@
+.btn,
+.btnParent,
+.image8Parent {
+  display: flex;
+  align-items: flex-start;
+}
+.btnParent {
+  width: 411px;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+  font-size: 16px;
+  color: #f0075a;
+  font-family: Inter;
+}
+.btn,
+.image8Parent {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.btn {
+  align-self: stretch;
+  height: 338px;
+  border: 1px solid rgba(58, 58, 58, 0.9);
+  overflow: hidden;
+}
+.image8Parent {
+  margin-left: -1px;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+}
+.image8Icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.contactDoer {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 4px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  margin: 16px;
+}
+.div,
+.heartIcon {
+  position: relative;
+}
+.heartIcon {
+  height: 24px;
+  width: 24px;
+}
+.div {
+  letter-spacing: -0.04em;
+  font-weight: 500;
+}
+.icoevaluation {
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(58, 58, 58, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px 15px;
+  gap: 8px;
+  color: #fff;
+}
+.swagoon1761 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+}
+.icoevaluation2 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.sol {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  font-family: inherit;
+}
+.icoevaluation3 {
+  cursor: pointer;
+  border: 0;
+  padding: 16px;
+  background-color: #5012b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icoevaluation3:hover {
+  background-color: #7538d9;
+}
+.buyNow {
+  position: relative;
+  font-size: 11px;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+@media screen and (max-width: 450px) {
+  .icoevaluation2 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .sol {
+    font-size: 19px;
+  }
+}

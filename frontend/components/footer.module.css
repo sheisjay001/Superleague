@@ -1,0 +1,274 @@
+.footer,
+.footerContent {
+  display: flex;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+}
+.footer {
+  align-self: stretch;
+  background-color: #190109;
+  border-top: var(--Stroke-Border) solid #d9d9d9;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 75px 80px 22px 72px;
+  gap: 74.5px;
+  z-index: 6;
+  margin-top: -1px;
+  position: relative;
+  font-family: "DM Sans";
+}
+.footerContent {
+  width: 1280px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: Inter;
+}
+.extricatorParent,
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.title {
+  width: 346px;
+  gap: 16px;
+  min-width: 240px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 37.8px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.extricatorParent {
+  align-self: stretch;
+  height: 140px;
+  gap: 24px;
+}
+.extricator,
+.joinTheRanks {
+  position: relative;
+  flex-shrink: 0;
+}
+.extricator {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 59.9px;
+  font-weight: 900;
+  font-family: inherit;
+}
+.joinTheRanks {
+  align-self: stretch;
+  height: 103px;
+  font-size: 24px;
+  letter-spacing: -0.04em;
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.socialLinks {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 48px;
+}
+.socialLinksChild {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.textLinkList {
+  width: 193px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Space-300);
+}
+.title2 {
+  flex-direction: column;
+  padding: 0 0 var(--Space-400);
+}
+.textStrong,
+.title2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.company {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.textLinkListItem {
+  width: 89px;
+  height: 22px;
+  display: flex;
+  align-items: flex-start;
+}
+.aboutUs,
+.contactUs,
+.services,
+.support {
+  height: 22px;
+  width: 66px;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+}
+.aboutUs,
+.contactUs,
+.support {
+  width: 68px;
+}
+.contactUs,
+.support {
+  width: 61px;
+}
+.contactUs {
+  width: 85px;
+}
+.textLinkListItem5 {
+  width: 89px;
+  height: 22px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.privacyPolicy,
+.termsCondition {
+  height: 23px;
+  width: 106px;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.termsCondition {
+  width: 140px;
+}
+.textLinkListItem7 {
+  width: 89px;
+  height: 22px;
+  position: relative;
+}
+.textLinkList3 {
+  height: 130px;
+  width: 193px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Space-300);
+}
+.textLinkListItem8,
+.title4 {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.title4 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--Space-400);
+}
+.textLinkListItem8 {
+  width: 89px;
+  height: 22px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nigeria {
+  height: 23px;
+  width: 55px;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+}
+.textLinkListItem9 {
+  width: 89px;
+  height: 22px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.textLinkListItem9,
+.unitedStateParent {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.unitedState,
+.unitedState2 {
+  height: 22px;
+  width: 95px;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+}
+.unitedState2 {
+  z-index: 1;
+  margin-left: -95px;
+}
+.textLinkListItem10 {
+  width: 89px;
+  height: 22px;
+  position: relative;
+  flex-shrink: 0;
+}
+.copyright2025ExtricatorWrapper {
+  width: 1288px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px 10px;
+}
+.copyright2025Extricator {
+  position: relative;
+}
+@media screen and (max-width: 1125px) {
+  .footer {
+    height: auto;
+  }
+  .footerContent {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    gap: 37px;
+    padding-left: 36px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .extricator {
+    font-size: 30px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer {
+    gap: 19px;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .extricator {
+    font-size: 23px;
+    line-height: 36px;
+  }
+  .joinTheRanks {
+    font-size: 19px;
+  }
+  .socialLinks {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
