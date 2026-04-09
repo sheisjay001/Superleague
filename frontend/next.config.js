@@ -13,8 +13,6 @@ const nextConfig = {
     typescript: {
       ignoreBuildErrors: true,
     },
-    distDir: "build",
-    output: "export",
     images: {
       unoptimized: true,
     },
