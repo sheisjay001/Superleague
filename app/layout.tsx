@@ -3,7 +3,7 @@ import "./global.css";
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: `My projects's Project`,
+  title: `Superleague`,
 };
 
 export default function RootLayout({
