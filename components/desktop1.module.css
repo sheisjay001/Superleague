@@ -116,3 +116,67 @@
     line-height: 23px;
   }
 }
+
+/* Mobile Responsive Styles - Added below existing styles */
+@media screen and (max-width: 768px) {
+  .desktop2,
+  .frameParent,
+  .meetTheTeamParent,
+  .homeIndicatoParent {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: auto !important;
+  }
+  .desktop2 {
+    padding: 40px 20px;
+  }
+  .frameParent {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .meetTheTeamParent {
+    width: 100%;
+    min-width: auto;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    gap: 16px;
+  }
+  .meetTheTeam {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .theCreatorsWho {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .homeIndicatoParent {
+    width: 100%;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .desktop2 {
+    padding: 32px 16px;
+  }
+  .frameParent {
+    gap: 30px;
+  }
+  .meetTheTeamParent {
+    gap: 12px;
+  }
+  .meetTheTeam {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .theCreatorsWho {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .homeIndicatoParent {
+    gap: 20px;
+  }
+}

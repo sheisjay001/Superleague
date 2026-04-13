@@ -148,3 +148,96 @@
     line-height: 23px;
   }
 }
+
+/* Mobile Responsive Styles - Added below existing styles */
+@media screen and (max-width: 768px) {
+  .cta2,
+  .cta2Inner,
+  .frameParent,
+  .form {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .cta2 {
+    padding: 40px 20px;
+  }
+  .cta2Inner {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    padding: 40px 20px;
+  }
+  .frameParent {
+    width: 100%;
+    gap: 30px;
+  }
+  .signUpForEarlyAlphaParent {
+    gap: 12px;
+  }
+  .signUpFor {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .subscribeNowTo {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .form {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .textInput {
+    width: 100%;
+  }
+  .signUpNow {
+    font-size: 14px;
+  }
+  .button {
+    width: 100%;
+    padding: 12px;
+    justify-content: center;
+  }
+  .getEarlyAlpha {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cta2 {
+    padding: 32px 16px;
+  }
+  .cta2Inner {
+    padding: 32px 16px;
+  }
+  .frameParent {
+    gap: 24px;
+  }
+  .signUpForEarlyAlphaParent {
+    gap: 10px;
+  }
+  .signUpFor {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .subscribeNowTo {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .form {
+    gap: 10px;
+  }
+  .textInput {
+    padding: 10px;
+  }
+  .signUpNow {
+    font-size: 13px;
+  }
+  .button {
+    padding: 10px;
+  }
+  .getEarlyAlpha {
+    font-size: 13px;
+  }
+}

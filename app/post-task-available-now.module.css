@@ -10,6 +10,14 @@
 
 @media screen and (max-width: 768px) {
   .postTaskavailableNow {
+    width: 100%;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .postTaskavailableNow {
+    width: 100%;
     align-items: flex-start;
   }
 }

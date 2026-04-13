@@ -313,3 +313,154 @@
     box-sizing: border-box;
   }
 }
+
+/* Mobile Responsive Styles - Added below existing styles */
+@media screen and (max-width: 768px) {
+  .desktop1 {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    gap: 40px;
+    padding: 0 20px 40px;
+  }
+  .extricatorParent {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .extricator {
+    font-size: 20px;
+    height: auto;
+    width: auto;
+  }
+  .homeParent {
+    gap: 24px;
+  }
+  .home {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .desktop1Inner {
+    padding: 0 20px;
+    width: 100%;
+  }
+  .frameContainer {
+    width: 100%;
+    padding: 0;
+  }
+  .frameGroup {
+    width: 100%;
+  }
+  .getReadyTo {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .joinTheRanks {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .imageParent {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    max-width: 200px;
+  }
+  .earnWldWithYourTimeSkill {
+    width: 100%;
+    max-width: 200px;
+  }
+  .btnParent {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .btnIcon,
+  .takeABreak,
+  .supportSubtitleIcon {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    position: relative;
+    left: auto;
+    top: auto;
+    bottom: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .desktop1 {
+    gap: 24px;
+    padding: 0 16px 32px;
+  }
+  .vectorIcon {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+  }
+  .extricatorParent {
+    padding: 16px;
+    gap: 12px;
+  }
+  .homeParent {
+    gap: 16px;
+  }
+  .home {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .desktop1Inner {
+    padding: 0 16px;
+  }
+  .frameParent {
+    gap: 24px;
+  }
+  .frameGroup {
+    gap: 20px;
+  }
+  .getReadyTo {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .joinTheRanks {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .image {
+    height: 48px;
+    padding: 12px;
+  }
+  .explore {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .earnWldWithYourTimeSkill {
+    height: 48px;
+    padding: 12px;
+  }
+  .goToMarket {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .btnParent {
+    padding: 0 0 24px;
+  }
+  .btnIcon {
+    height: auto;
+    max-width: 250px;
+  }
+  .takeABreak,
+  .supportSubtitleIcon {
+    display: none;
+  }
+}
