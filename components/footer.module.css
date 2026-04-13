@@ -221,7 +221,8 @@
   flex-shrink: 0;
 }
 .copyright2025ExtricatorWrapper {
-  width: 1288px;
+  width: 100%;
+  max-width: 1288px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
   display: flex;
@@ -270,5 +271,126 @@
   .socialLinks {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+/* Mobile Responsive Styles - Added below existing styles */
+@media screen and (max-width: 768px) {
+  .footer,
+  .footerContent,
+  .copyright2025ExtricatorWrapper,
+  .title,
+  .textLinkList,
+  .textLinkList3 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .footer {
+    padding: 40px 20px 20px;
+    gap: 40px;
+  }
+  .footerContent {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+  .title {
+    width: 100%;
+    align-items: center;
+    min-width: auto;
+  }
+  .extricatorParent {
+    height: auto;
+    align-items: center;
+    gap: 16px;
+  }
+  .extricator {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .joinTheRanks {
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+  }
+  .socialLinks {
+    justify-content: center;
+    margin-top: 24px;
+  }
+  .textLinkList,
+  .textLinkList3 {
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+  }
+  .title2,
+  .title4 {
+    align-items: center;
+  }
+  .textStrong {
+    justify-content: center;
+  }
+  .textLinkListItem,
+  .textLinkListItem5,
+  .textLinkListItem8,
+  .textLinkListItem9 {
+    width: 100%;
+    justify-content: center;
+  }
+  .copyright2025ExtricatorWrapper {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 32px 16px 16px;
+    gap: 32px;
+  }
+  .footerContent {
+    gap: 32px;
+  }
+  .extricatorParent {
+    gap: 12px;
+  }
+  .extricator {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .joinTheRanks {
+    font-size: 12px;
+  }
+  .socialLinks {
+    gap: 12px;
+  }
+  .socialLinksChild {
+    width: 28px;
+    height: 28px;
+  }
+  .textLinkList,
+  .textLinkList3 {
+    gap: 10px;
+  }
+  .textLinkListItem,
+  .textLinkListItem5,
+  .textLinkListItem8,
+  .textLinkListItem9 {
+    height: auto;
+  }
+  .services,
+  .aboutUs,
+  .support,
+  .contactUs,
+  .privacyPolicy,
+  .termsCondition {
+    font-size: 14px;
+  }
+  .company {
+    font-size: 14px;
+  }
+  .copyright2025Extricator {
+    font-size: 12px;
   }
 }

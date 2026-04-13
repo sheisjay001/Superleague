@@ -1,6 +1,6 @@
 .postTaskavailableNow {
   position: relative;
-  width: 100%;
+  width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +10,14 @@
 
 @media screen and (max-width: 768px) {
   .postTaskavailableNow {
+    width: 100%;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .postTaskavailableNow {
+    width: 100%;
     align-items: flex-start;
   }
 }
